@@ -186,6 +186,7 @@ def player_numbers(team)
        
        if category == number        
        final_array.push(category[:number])
+     end
     end
     end
   end
