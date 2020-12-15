@@ -190,5 +190,7 @@ def player_numbers(team)
   end
   final_array
 end
-      
+
+def player_stats(player)
+  
       
