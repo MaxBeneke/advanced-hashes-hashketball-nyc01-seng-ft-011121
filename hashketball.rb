@@ -175,3 +175,18 @@ def team_names
   end
   final_array
 end
+
+def player_numbers(team)
+  final_array = []
+  
+  game_hash.each do |location, team_data|
+    
+    if team_data[:team_name] == team
+     team_data.each do |team_info, data|
+       binding.pry
+    end
+    end
+  end
+end
+      
+      
