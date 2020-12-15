@@ -204,4 +204,8 @@ def player_stats(player)
   end
   final_hash
 end
+
+def big_shoe_rebounds
+  
+  game_hash.each do |location, team_data
       
