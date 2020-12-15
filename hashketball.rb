@@ -192,13 +192,13 @@ def player_numbers(team)
 end
 
 def player_stats(player)
-  
+  final_hash = {}
   game_hash.each do |location, team_data|
     
     team_data[:players].each do |player_data|
       
       if player_data[:player_name] == player
-        puts player_data
+        player_data = final_hash
       end
     end
   end
