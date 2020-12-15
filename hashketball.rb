@@ -199,4 +199,8 @@ def player_stats(player)
       
       if player_data[:player_name] == name
         puts player_data
+      end
+    end
+  end
+end
       
