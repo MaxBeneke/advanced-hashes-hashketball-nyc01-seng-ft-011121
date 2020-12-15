@@ -183,7 +183,7 @@ def player_numbers(team)
     
     if team_data[:team_name] == team
      team_data[:players].each do |category, data|
-       
+       binding.pry
        if category == number        
        final_array.push(category[:number])
      end
