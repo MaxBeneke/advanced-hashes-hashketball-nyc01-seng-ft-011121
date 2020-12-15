@@ -171,7 +171,7 @@ def team_names
   
   game_hash.each do |location, team_data|
     final_array = []
-    
+    binding.pry
     final_array.push(team_data[:team_name])
   end
 end
