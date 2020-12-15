@@ -185,7 +185,6 @@ def player_numbers(team)
      team_data[:players].each do |category, data|
               
        final_array.push(category[:number])
-     end
     end
     end
   end
